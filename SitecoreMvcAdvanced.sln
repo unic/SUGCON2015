@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultipleForms", "src\MultipleForms\MultipleForms.csproj", "{B69EBFC8-F3C5-44F2-8BE5-D187DD183BDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormsLocalization", "src\FormsLocalization\FormsLocalization.csproj", "{FE1EFEE8-FD85-418E-8090-F37DA0A9B75D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Areas", "src\Areas\Areas.csproj", "{0936F22F-EA99-43CD-B63A-D543221058DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B69EBFC8-F3C5-44F2-8BE5-D187DD183BDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B69EBFC8-F3C5-44F2-8BE5-D187DD183BDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B69EBFC8-F3C5-44F2-8BE5-D187DD183BDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B69EBFC8-F3C5-44F2-8BE5-D187DD183BDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE1EFEE8-FD85-418E-8090-F37DA0A9B75D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE1EFEE8-FD85-418E-8090-F37DA0A9B75D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE1EFEE8-FD85-418E-8090-F37DA0A9B75D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE1EFEE8-FD85-418E-8090-F37DA0A9B75D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0936F22F-EA99-43CD-B63A-D543221058DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0936F22F-EA99-43CD-B63A-D543221058DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0936F22F-EA99-43CD-B63A-D543221058DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0936F22F-EA99-43CD-B63A-D543221058DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
