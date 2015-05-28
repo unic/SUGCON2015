@@ -101,6 +101,7 @@
     <Compile Include="ControllerRunner\AreaControllerRunner.cs" />
     <Compile Include="ControllerRunner\GetAreaControllerRenderer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Site\InitializeRoutes.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Config\Include\AreaPipeline.config" />
@@ -111,6 +112,10 @@
   <ItemGroup>
     <Content Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Config\Include\Site.config" />
+  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
