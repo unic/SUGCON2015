@@ -1,0 +1,17 @@
+﻿@model MultipleForms.Models.FormModel
+
+@using System.Web.Mvc.Html
+@using MultipleForms
+@using Sitecore.Mvc
+
+@using (Html.BeginForm())
+{
+    @Html.Sitecore().RenderingToken()
+    @Html.AntiForgeryToken()
+    
+    @Html.DisplayFor(m => m.Name)
+    @Html.TextBoxFor(m => m.Name)
+    @Html.ValidationMessageFor(m => m.Name)
+
+    <input type="submit" value="Submit Form 1" />
+}
