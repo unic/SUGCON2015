@@ -15,7 +15,8 @@
             if (rendering == null) return false;
 
             Guid postedId;
-            return Guid.TryParse(controllerContext.HttpContext.Request.Form["sc_rendering_uid"], out postedId) && postedId.Equals(rendering.Rendering.UniqueId);
+            return Guid.TryParse(controllerContext.HttpContext.Request.Form["sc_rendering_uid"], out postedId)
+                && postedId.Equals(rendering.Rendering.UniqueId);
         }
     }
 }
