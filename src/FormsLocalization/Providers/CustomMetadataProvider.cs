@@ -2,8 +2,6 @@
 {
     using System;
     using System.Collections.Generic;
-    using System.ComponentModel;
-    using System.ComponentModel.DataAnnotations;
     using System.Linq;
     using System.Web.Mvc;
 
@@ -14,12 +12,7 @@
     /// </summary>
     public class CustomMetadataProvider : DataAnnotationsModelMetadataProvider
     {
-        protected override ModelMetadata CreateMetadata(
-            IEnumerable<Attribute> attributes,
-            Type containerType,
-            Func<object> modelAccessor,
-            Type modelType,
-            string propertyName)
+        protected override ModelMetadata CreateMetadata(IEnumerable<Attribute> attributes, Type containerType, Func<object> modelAccessor, Type modelType, string propertyName)
         {
             // create the metadata as it normally would
             var propertyAttributes = attributes.ToList();
@@ -36,10 +29,7 @@
 
         private static bool IsTransformRequired(ModelMetadata modelMetadata, IList<Attribute> propertyAttributes)
         {
-            if (string.IsNullOrWhiteSpace(modelMetadata.PropertyName)) return false;
-            if (modelMetadata.PropertyName != "MetadataProviderPropertyName") return false;
-            if (propertyAttributes.OfType<DisplayNameAttribute>().Any()) return false;
-            return !propertyAttributes.OfType<DisplayAttribute>().Any();
+            return true;
         }
     }
 }

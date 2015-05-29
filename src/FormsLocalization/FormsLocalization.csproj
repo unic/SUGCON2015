@@ -114,7 +114,10 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Config\Include\Register.config" />
+    <Content Include="App_Config\Include\Provider.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Config\Include\Adapter.config" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
