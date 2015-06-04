@@ -14,6 +14,14 @@
         {
         }
 
+        private string GetMessage()
+        {
+            // consider the error message as a key, fall back to the attribute type name
+            var key = this.Attribute.ErrorMessage;
+
+            return Translate.Text(key);
+        }
+
         public override IEnumerable<ModelClientValidationRule> GetClientValidationRules()
         {
             var message = this.GetMessage();
@@ -35,14 +43,6 @@
 
             // override the result message
             yield return new ModelValidationResult { Message = this.GetMessage() };
-        }
-
-        private string GetMessage()
-        {
-            // consider the error message as a key, fall back to the attribute type name
-            var key = this.Attribute.ErrorMessage;
-
-            return Translate.Text(key);
         }
     }
 }
