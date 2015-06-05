@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormsLocalization", "src\Fo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Areas", "src\Areas\Areas.csproj", "{0936F22F-EA99-43CD-B63A-D543221058DC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AreasStructure", "src\AreasStructure\AreasStructure.csproj", "{8CF60448-243C-4B75-AAED-B30D2507E12A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{0936F22F-EA99-43CD-B63A-D543221058DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0936F22F-EA99-43CD-B63A-D543221058DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0936F22F-EA99-43CD-B63A-D543221058DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CF60448-243C-4B75-AAED-B30D2507E12A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CF60448-243C-4B75-AAED-B30D2507E12A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CF60448-243C-4B75-AAED-B30D2507E12A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CF60448-243C-4B75-AAED-B30D2507E12A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
